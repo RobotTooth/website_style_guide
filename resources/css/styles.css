@@ -88,12 +88,14 @@ p {
     background-color: #a2a2a6;
 }
 
-.roboto-regular, .roboto-family-container {
-    font-family: 'robotoregular';
+.roboto-regular .roboto-family-container {
+    font-family: 'Roboto', sans-serif;
 }
 .roboto-bold {
-    font-family: 'robotobold';
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
-.robot-italic {
-    font-family: 'robotoitalic';
+.roboto-italic {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }
