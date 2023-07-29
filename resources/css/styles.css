@@ -88,7 +88,10 @@ p {
     background-color: #a2a2a6;
 }
 
-.roboto-regular .roboto-family-container {
+.roboto-container{
+    border: 2px solid #a2a2a6;
+}
+.roboto-regular, .roboto-container {
     font-family: 'Roboto', sans-serif;
 }
 .roboto-bold {
@@ -97,5 +100,23 @@ p {
 }
 .roboto-italic {
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.borel-container{
+    border: 2px solid #a2a2a6;
+}
+.borel-regular, .borel-container {
+    font-family: 'Borel', cursive;
+    
+}
+.borel-bold {
+    font-family: 'Borel', cursive;
+    
+    font-weight: bold;
+}
+.borel-italic {
+    font-family: 'Borel', cursive;
+    
     font-style: italic;
 }
