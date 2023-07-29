@@ -29,8 +29,9 @@
 
 @font-face {
     font-family: 'robotobold';
-    src: url('roboto-bold-webfont.woff2') format('woff2'),
-         url('roboto-bold-webfont.woff') format('woff');
+    src: url('..\resources\fonts\roboto\roboto-bold-webfont.woff2') format('woff2'),
+         url('..\resources\fonts\roboto\roboto-bold-webfont.woff') format('woff'),
+         url('..\resources\fonts\roboto\Roboto-Bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -198,8 +199,8 @@ p {
 .cool-gray {
     background-color: #a2a2a6;
 }
-.roboto-black {
-    font-family: robotoblack;
+.roboto-bold {
+    font-family: robotobold;
 }
 .roboto-regular, .roboto-family-container {
     font-family: robotoregular;
