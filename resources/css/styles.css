@@ -57,6 +57,8 @@ p {
 .roboto-container{
     border: 2px solid #a2a2a6;
     font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    padding: 10px
 }
 
 .roboto-bold {
@@ -71,6 +73,8 @@ p {
 .borel-container{
     border: 2px solid #a2a2a6;
     font-family: 'Borel', cursive;
+    margin: 5px;
+    padding: 10px;
 }
 
 .borel-bold {
