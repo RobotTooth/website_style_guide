@@ -29,8 +29,8 @@
     </header>
     <div class="container">
         <h2>Sidebars</h2>
-        <div class="container-sidebar">
-            <div class="sidebar">
+        <div class="nav-container-sidebar">
+            <div class="nav-sidebar">
                 <h2>Sidebar</h2>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -39,13 +39,73 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="content">
+            <div class="nav-sidebar-content">
                 <h1>Main Content</h1>
                 <p>Welcome to my website! This is the main content area.</p>
-            </div>
-            <div>
-                <p>The Layout above will render using the following html and CSS:<br></p>
-            </div>
+            </div>            
+        </div>
+        <div class="nav-sidebar-descrpition">
+            <p>The Layout above will render using the following html and CSS:</p>
+            <br>
+            <h6>Html code:</h6>
+            <br>
+            <pre>
+                &lt;div class="nav-sidebar"&gt;
+                    &lt;h2&gt;Sidebar&lt;/h2&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="nav-sidebar-content"&gt;
+                    &lt;h1&gt;Main Content&lt;/h1&gt;
+                    &lt;p&gt;Welcome to my website! This is the main content area.&lt;/p&gt;
+                &lt;/div&gt;
+            </pre>
+            <br>
+            <h6>CSS code:</h6>
+            <br>
+            <pre>
+                .nav-container-sidebar {
+                    display: flex;
+                    position: relative;
+                }
+                
+                .nav-sidebar {
+                    width: 25%;
+                    background-color: #f1f1f1;
+                    padding: 20px;
+                }
+                
+                .nav-sidebar h2 {
+                    margin-bottom: 10px;
+                }
+                
+                .nav-sidebar ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                
+                .nav-sidebar li {
+                    margin-bottom: 10px;
+                }
+                
+                .nav-sidebar a {
+                    text-decoration: none;
+                    color: #333;
+                }
+                
+                .nav-sidebar a:hover {
+                    color: #555;
+                }
+                
+                .nav-sidebar-content {
+                    width: 75%;
+                    padding: 20px;
+                }
+            </pre>
         </div>
     </div>
     

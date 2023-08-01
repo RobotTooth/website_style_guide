@@ -114,39 +114,41 @@ h2 {
     font-family: 'Poppins', sans-serif;
 }
 
-.container-sidebar {
+.nav-container-sidebar {
     display: flex;
+    position: relative;
 }
 
-.sidebar {
+.nav-sidebar {
     width: 25%;
     background-color: #f1f1f1;
     padding: 20px;
 }
 
-.sidebar h2 {
+.nav-sidebar h2 {
     margin-bottom: 10px;
 }
 
-.sidebar ul {
+.nav-sidebar ul {
     list-style-type: none;
     padding: 0;
 }
 
-.sidebar li {
+.nav-sidebar li {
     margin-bottom: 10px;
 }
 
-.sidebar a {
+.nav-sidebar a {
     text-decoration: none;
     color: #333;
 }
 
-.sidebar a:hover {
+.nav-sidebar a:hover {
     color: #555;
 }
 
-.content {
+.nav-sidebar-content {
     width: 75%;
     padding: 20px;
 }
+
